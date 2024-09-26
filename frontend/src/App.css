@@ -1,0 +1,38 @@
+:root {
+  --text-color: white;
+  --primary-color: #ff5733;
+  --background-color: #261132;
+  --card-color: #3E2F5B;
+  --first: #FFB86F;
+  --second: #B09D1C;
+  --third: #BA5C12;
+  --card-header: #3A1A4C;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.container-lg {
+  background-color: var(--card-color);
+  padding: 30px;
+}
+
+.addBtn {
+  margin-bottom: 20px;
+  background-color: var(--second);
+  border: none;
+}
+
+.card {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.card-header {
+  background-color: var(--card-header);
+}
+
+.text-center {
+  color: var(--text-color);
+}
